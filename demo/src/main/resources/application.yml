@@ -1,0 +1,17 @@
+server:
+  tomcat:
+    max-threads: 1000
+    max-connections: 20000
+  port: 8880
+
+ribbon:
+  ReadTimeout: 120000
+  ConnectTimeout: 120000
+  eureka:
+    enabled: true
+
+swagger:
+  base-package: com.citic.spring
+app:
+  id: cmall-third-service
+  
